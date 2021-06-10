@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JetPack Submission Two</string>
+    <string name="no_connection">No connection, please turn on your connection then back again!</string>
+</resources>

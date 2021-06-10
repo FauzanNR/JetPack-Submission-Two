@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.movie.MovieFragment">
+
+    <TextView
+        android:background="@color/transparent"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:id="@+id/id_text_info_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No connection!" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_recview_movie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_card" />
+
+</FrameLayout>
